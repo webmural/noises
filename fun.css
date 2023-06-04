@@ -1,0 +1,30 @@
+/* openswear color https://s9a.page/violet */
+.viola * { background: transparent; color:inherit }
+.viola.viola { color:var(--loyal); background:var(--petal) }
+.viola.ouija { color:var(--petal); background:var(--loyal) }
+.viola ::selection { color: #090909; background: #ec0 }
+.viola { --petal: #bae; --loyal: indigo }
+.violet { --petal: violet; --loyal: indigo }
+.blueviolet { --petal: blueviolet; --loyal: floralwhite }
+.darkviolet { --petal: darkviolet; --loyal: floralwhite }
+.palevioletred { --petal: palevioletred; --loyal: navy }
+.mediumvioletred { --petal: mediumvioletred; --loyal: floralwhite }
+
+/* opensewer color https://s9a.page/cab */
+html { --cab-oil: seashell; --cab-ink: #212 }
+.cab-ez a { color: inherit; outline-color: currentColor }
+.cab-ave { --cab-oil: moccasin; --cab-ink: #212 }
+.cab-sun { --cab-oil: #ec0; --cab-ink: #212 }
+.cab-sup { --cab-oil: papayawhip; --cab-ink: #718 }
+.cab-curb { --cab-oil: #cab; --cab-ink: #212 }
+.cab-river { --cab-oil: powderblue; --cab-ink: #718 }
+.cab-fresh { --cab-oil: chartreuse; --cab-ink: #646 }
+.cab-rush { --cab-oil: mistyrose; --cab-ink: #917 }
+.cab-gush { --cab-oil: seashell; --cab-ink: #929 }
+.cab-park { --cab-oil: powderblue; --cab-ink: #332 }
+.cab-wave { --cab-oil: seashell; --cab-ink: #347 }
+.cab-heat { --cab-oil: hotpink; --cab-ink: #212 }
+.cab-flag { --cab-oil: salmon; --cab-ink: indigo }
+.cab-am.cab-am { background-color: var(--cab-oil); color: var(--cab-ink) }
+.cab-pm.cab-pm { background-color: var(--cab-ink); color: var(--cab-oil) }
+::selection { background: blueviolet; color: moccasin }
